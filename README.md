@@ -40,6 +40,9 @@ and Yahoo groups.  Stable releases are announced to all lists and groups; test
 - fldigi-devel list
   Fldigi development topics
   https://sourceforge.net/p/fldigi/mailman/fldigi-devel/
+
+## The Dockerfile
+
 [telegraphist/fldigi][1] is a [Docker][2].base image for Fldigi.
 
 [1]: https://hub.docker.com/r/telegraphist/fldigi
