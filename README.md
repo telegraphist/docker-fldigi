@@ -3,18 +3,13 @@
 Fldigi is a software modem for Amateur Radio use. Fldigi is automatically
 generated during this build.
 
-The latest version can always be found at:
-
-http://www.w1hkj.com/
+The latest version can always be found at: http://www.w1hkj.com/
 
 Visit this page for extensive documentation and an archive of XML files for
 transceivers supported by RigCAT. The wiki page contains FAQs and HOWTOs, as
-well as links to all Fldigi resources:
-
-https://fedorahosted.org/fldigi/
+well as links to all Fldigi resources: https://fedorahosted.org/fldigi/
 
 The GIT repository can be found at:
-
 https://sourceforge.net/p/fldigi/fldigi/ci/master/tree/
 
 For support, news and updates, join one or more of the following mailing lists
@@ -48,7 +43,7 @@ and Yahoo groups.  Stable releases are announced to all lists and groups; test
 [1]: https://hub.docker.com/r/telegraphist/fldigi
 [2]: https://docker.com
 
-### Clone Fldigi
+### Clone the Repository and run Fldigi
 
 ```sh
 git clone https://github.com/telegraphist/docker-fldigi.git
@@ -60,13 +55,6 @@ fldigi &
 
 ```sh
 docker build -t telegraphist/fldigi .
-./run
-fldigi &
-```
-
-### Run Fldigi
-
-```sh
 ./run
 fldigi &
 ```
